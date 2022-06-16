@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    margin: 40px;
+    min-height: 800px;
+}
+
+.left {
+    background: url('/images/lottery-display.svg') no-repeat #0171FF;
+    background-position: center;
+    min-width: 495px;
+}
+
+.right  {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width : 768px){
+    .container .left {
+        display: none;
+    }
+    
+}

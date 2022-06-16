@@ -1,0 +1,84 @@
+.container {
+    background-color: #F8C0BD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.container_item {
+    background-image: url('/images/hacker.jpg');
+    background-size: cover;
+    height: 580px;
+    width: calc(33% - 80px);
+    min-width: 380px;
+    border-radius: 24px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 16px;
+}
+
+.container_item h2.title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+
+.error {
+    color: red;
+}
+
+.btn_back {
+    font-size: 32px;
+    color: white;
+    text-align: left;
+    flex: 1;    
+}
+
+.wrapper_form {
+    background-color: rgba(255,255, 255, .15);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.social_login button {
+    margin: 8px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_login button svg{
+    margin-right: 8px;
+}
+
+.desc_note {
+    color: white;
+}
+
+.desc_note span{
+    color: #1DA27A;
+}
+
+.desc_info {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.user_item {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.profile {
+    margin-left: 16px;
+    color: white;
+    
+}
+
+.profile .profile_name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}

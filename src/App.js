@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Form1 from "./components/Form1";
+import "antd/dist/antd.css";
+import Form2 from "./components/Form2";
+import WeatherApp1 from "./components/WeatherApp1";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Form1 />
+      <Form2 />
+      <WeatherApp1 />
     </div>
   );
 }
