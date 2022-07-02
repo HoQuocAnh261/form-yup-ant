@@ -10,7 +10,7 @@ import { Form, Button, Input } from "antd";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
-import avatar from "/images/avatar.jpg";
+import avatar from "../../../assets/images/avatar.jpg";
 
 function FormLogin() {
   const formik = useFormik({
