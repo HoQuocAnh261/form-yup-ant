@@ -1,1 +1,2 @@
-PUCLIC_URL="."
+PUCLIC_URL=".",
+Permissions-Policy: interest-cohort=(),
